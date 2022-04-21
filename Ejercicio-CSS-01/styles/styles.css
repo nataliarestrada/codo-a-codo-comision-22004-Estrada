@@ -1,0 +1,18 @@
+.caja{
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+    font-size: 2em;
+    display: inline-block;
+
+}
+.roja{
+    background-color: red;
+    color: yellow;
+
+}
+
+.negra{
+    background-color: black;
+    color: white;
+}
