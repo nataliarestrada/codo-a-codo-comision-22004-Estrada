@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 2</title>
+</head>
+<body>
+    <script>
+        let resultado
+        for (let i = 11; i >8; i--) {
+            document.write(`<h3 style="margin: 0; text-align: center ;">La tabla del ${i}:</h3>`)
+                for (let j = 1; j < 10; j++) {
+                    resultado=i*j
+                    document.write(`<p style="margin: 0; text-align: center ;">${i}x${j}: ${resultado}</p>`)
+                }
+            document.write(`<br>`)
+        }
+    </script>
+</body>
+</html>
